@@ -7,6 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>admin dashboard</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dynalight&family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -14,18 +17,23 @@
   <div class="container">
 
     <header>
-      <div class="search-bar">Searchbar</div>
+      <div class="search-bar">
+        <img src="images/search.svg" alt="">
+        <input type="text">
+      </div>
       <div class="notifications">
-        <img src="images/" alt="notification icon">
-        <img src="images/" alt="profile-pic">
+        <img class="notification-icon" src="images/bell-ring.svg" alt="notification icon">
+        <img class="profile-pic" src="images/profile_pic.png" alt="profile-pic">
         <p>Bryan Medina</p>
       </div>
       <div class="user-info">
-        <img src="images/" alt="profile-pic">
-        <p>Hi there,</p>
-        <p>Bryan Medina (@Bryan.med)</p>
+        <img src="images/profile_pic.png" alt="profile-pic">
+        <div>
+          <p>Hi there,</p>
+          <p>Bryan Medina (@bryanmed)</p>
+        </div>
       </div>
-      <div class="options">
+      <div class="buttons">
         <button>New</button>
         <button>Upload</button>
         <button>Share</button>
@@ -33,21 +41,52 @@
     </header>
 
     <aside>
+
       <div class="logo">
-        Dashboard
+        <img src="images/view-dashboard-outline.svg" alt="dashboard logo">
+        <p>
+          Dashboard
+        </p>
       </div>
       <div class="home-sidebar">
-        <div class="home-item">Home</div>
-        <div class="home-item">Profile</div>
-        <div class="home-item">Messages</div>
-        <div class="home-item">History</div>
-        <div class="home-item">Tasks</div>
-        <div class="home-item">Communities</div>
+        <div class="sidebar-item">
+          <img src="images/home.svg" alt="home">
+          <p>Home</p>
+        </div>
+        <div class="sidebar-item">
+          <img src="images/face-man-profile.svg" alt="">
+          <p>Profile</p>
+        </div>
+        <div class="sidebar-item">
+          <img src="images/message.svg" alt="">
+          <p>Messages</p>
+        </div>
+        <div class="sidebar-item">
+          <img src="images/clock-time-nine.svg" alt="">
+          <p>History</p>
+        </div>
+        <div class="sidebar-item">
+          <img src="images/note-check.svg" alt="">
+          <p>Tasks</p>
+        </div>
+        <div class="sidebar-item">
+          <img src="images/account-group.svg" alt="">
+          <p>Communities</p>
+        </div>
       </div>
       <div class="settings">
-        <div class="settings-item">Settings</div>
-        <div class="settings-item">Support</div>
-        <div class="settings-item">Privacy</div>
+        <div class="sidebar-item">
+          <img src="images/hammer-screwdriver.svg" alt="">
+          <p>Settings</p>
+        </div>
+        <div class="sidebar-item">
+          <img src="images/help-box.svg" alt="">
+          <p>Support</p>
+        </div>
+        <div class="sidebar-item">
+          <img src="images/shield-check.svg" alt="">
+          <p>Privacy</p>
+        </div>
       </div>
     </aside>
 
@@ -58,30 +97,60 @@
           <p>Super cool project</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas dolore obcaecati pariatur temporibus
             recusandae consequuntur!</p>
+          <div class="buttons-projects">
+            <img src="images/star-plus-outline.svg" alt="">
+            <img src="images/eye-plus.svg" alt="">
+            <img src="images/share-variant.svg" alt="">
+          </div>
         </div>
         <div class="card">
           <p>Less cool project</p>
           <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur libero voluptatibus debitis, expedita,
             dolorum sapiente molestias labore nostrum nihil enim commodi consectetur autem.</p>
+            <div class="buttons-projects">
+              <img src="images/star-plus-outline.svg" alt="">
+              <img src="images/eye-plus.svg" alt="">
+              <img src="images/share-variant.svg" alt="">
+            </div>
         </div>
         <div class="card">
           <p>Impossible app</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem optio beatae consectetur!</p>
+          <div class="buttons-projects">
+            <img src="images/star-plus-outline.svg" alt="">
+            <img src="images/eye-plus.svg" alt="">
+            <img src="images/share-variant.svg" alt="">
+          </div>
         </div>
         <div class="card">
           <p>Easy Peasy App</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, corrupti quis fugiat qui, magni cum maxime
             esse reiciendis, ad eligendi dolores id ab similique voluptatibus.</p>
+            <div class="buttons-projects">
+              <img src="images/star-plus-outline.svg" alt="">
+              <img src="images/eye-plus.svg" alt="">
+              <img src="images/share-variant.svg" alt="">
+            </div>
         </div>
         <div class="card">
           <p>Ad Blocker</p>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam magnam quae quo cupiditate asperiores at
             sunt, ipsum laudantium eos? Fugiat?</p>
+            <div class="buttons-projects">
+              <img src="images/star-plus-outline.svg" alt="">
+              <img src="images/eye-plus.svg" alt="">
+              <img src="images/share-variant.svg" alt="">
+            </div>
         </div>
         <div class="card">
           <p>Money Maker</p>
           <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nam obcaecati consequuntur qui ea aliquam hic,
             enim nemo amet omnis possimus, rerum nobis?</p>
+            <div class="buttons-projects">
+              <img src="images/star-plus-outline.svg" alt="">
+              <img src="images/eye-plus.svg" alt="">
+              <img src="images/share-variant.svg" alt="">
+            </div>
         </div>
       </div>
 
@@ -90,6 +159,7 @@
           <div>
             <p>Site Maintenance</p>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non inventore error soluta.</p>
+            
           </div>
           <div>
             <p>Community Share Day</p>
