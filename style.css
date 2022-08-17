@@ -110,7 +110,7 @@ main{
   font-weight: 700;
 }
 
-.profile-pic{
+.profile-pic, .trending img{
   max-width: 3rem;
   border-radius: 50%;
 }
@@ -155,7 +155,6 @@ main{
   font-weight: 700;
 }
 
-
 .your-projects>p{
   font-size: 1.3rem;
   font-weight: 700;
@@ -164,6 +163,11 @@ main{
 .card{
   background-color: antiquewhite;
   padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+  border-radius: 1rem;
 }
 
 .card>p:nth-child(1){
@@ -173,9 +177,64 @@ main{
 }
 
 .buttons-projects{
-
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.5rem;
 }
 
 .buttons-projects img{
   max-width: 1.5rem;
+}
+
+.announcements, .trending{
+  background-color: antiquewhite;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+
+.side-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.side-info>p{
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+
+.announcements p:nth-child(1){
+  font-weight: 700;
+}
+
+.announcements p:nth-child(2){
+  font-size: 0.9rem;
+  padding: 0.5rem 0;
+}
+
+.announcements div{
+  padding: 1rem 0;
+}
+
+hr{
+  color: lightgray;
+}
+
+.trending>div{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.3rem 0;
+}
+
+.trending>div p:nth-child(1){
+  font-weight: 700;
+  margin: 0.2rem 0;
+}
+
+.trending>div p:nth-child(2){
+  font-size: 0.9rem;
+  color: #444;
 }
